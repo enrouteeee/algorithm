@@ -6,28 +6,6 @@
 
 using namespace std;
 
-int main(){
-
-  int N, C;
-  cin >> N >> C;
-
-  vector<int> num;
-  for(int i=0; i<N; i++){
-    int a;
-    cin >> a;
-    num.push_back(a);
-  }
-
-  sort(num.begin(), num.end());
-
-
-
-
-
-  return 0;
-}
-
-/*
 // 집의 개수(N)와 공유기의 개수(C)
 int n, c;
 vector<int> arr;
@@ -74,4 +52,3 @@ int main() {
 
     cout << result << '\n';
 }
-*/
